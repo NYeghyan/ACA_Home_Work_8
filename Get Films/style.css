@@ -1,0 +1,28 @@
+#wrapper-film {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+
+.film-content {
+    width: 40%;
+}
+
+
+
+.wrapper-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+
+
+#img-wrap {
+    margin-top: 25px;
+}

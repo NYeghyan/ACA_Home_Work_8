@@ -1,0 +1,69 @@
+.wrapper-books {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#form {
+   margin:  15px 0 15px 0;
+}
+
+#list-button {
+    margin-bottom: 15px;
+}
+
+
+.button-list-item {
+    padding: 4px 5px;
+    margin: 0px 5px;
+    border-radius: 5px;
+    width: 50px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(233 222 243);
+    transition: 0.8s;
+}
+
+.button-list-item:hover {
+    background-color: rgb(242 235 249);
+    box-shadow: rgb(0 0 0 / 20%) 0px 5px 10px;
+}
+
+
+
+.btn {
+    padding: 4px 5px;
+    margin: 0px 5px;
+    border-radius: 5px;
+    width: fit-content;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(233 222 243);
+    transition: 0.8s;
+}
+
+
+
+
+#loading {
+    width: 2rem;
+    height: 2rem;
+    border: 5px solid #f3f3f3;
+    border-top: 6px solid #9c41f2;
+    border-radius: 100%;
+    margin: auto;
+    visibility: hidden;
+    animation: spin 1s infinite linear;
+}
+#loading.display {
+    visibility: visible;
+}
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
